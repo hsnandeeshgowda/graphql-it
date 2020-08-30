@@ -1,0 +1,39 @@
+{
+  "name": "graphql-it",
+  "version": "1.0.0",
+  "description": "backend sever using graphql",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "start2": "ts-node src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsnandeeshgowda/graphql-it.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "hsnandeeshgowda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsnandeeshgowda/graphql-it/issues"
+  },
+  "homepage": "https://github.com/hsnandeeshgowda/graphql-it#readme",
+  "devDependencies": {
+    "@types/node": "^14.6.2",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@mikro-orm/cli": "^4.0.0-alpha.0",
+    "@mikro-orm/core": "^4.0.0-alpha.0",
+    "@mikro-orm/migrations": "^4.0.0-alpha.0",
+    "@mikro-orm/postgresql": "^4.0.0-alpha.0",
+    "pg": "^8.3.3"
+  }
+}
